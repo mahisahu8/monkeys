@@ -1,0 +1,538 @@
+
+<html>
+    <body style="background-color: black;">
+        <style>
+            #dota {
+                background-color: white; 
+             height: 15px; width: 15px; float: left; margin-left: 10px; border-radius: 10px;
+            } 
+            #dotb{
+                background-color: white; 
+             height: 15px; width: 15px; float: left; margin-left: 10px; border-radius: 10px;
+            }
+            #dotc{
+                background-color: white; 
+             height: 15px; width: 15px; float: left; margin-left: 10px; border-radius: 10px;}
+            #dota:hover{
+                background-color: blue;
+                height: 17px;  
+            }
+            #dotb:hover{
+                background-color: blue;
+                height: 17px;
+            }
+            #dotc:hover{
+                background-color: blue;
+                height: 17px;
+            }
+            .img1{
+                border-radius: 30px;
+            }
+            #text1{
+                color:black;
+                font-size: 20px;
+                padding: 8px 12px;
+                position: absolute;
+                margin-top: 340px;
+                margin-left: 60px;
+                text-align: center;
+            }
+            #text2{
+                color:black;
+                font-size: 20px;
+                padding: 8px 12px;
+                position: absolute;
+                margin-top: -130px;
+                margin-left: 350px;
+                text-align: center;
+            }
+            #text3{
+                color: black;
+                font-size: 20px;
+                padding: 8px 12px;
+                position: absolute;
+                margin-top: -130px;
+                margin-left: 350px;
+                text-align: center;
+            }
+            #but1  {
+                color:  #0e0536;
+                font-size: 15px;
+                padding: 8px 12px;
+                position: absolute;
+                margin-top: 420px;
+                margin-left: 150px;
+                text-align: center;
+                border-radius: 10px;
+            }
+            #but2  {
+                color:  #0e0536;
+                font-size: 15px;
+                padding: 8px 12px;
+                position: absolute;
+                margin-top: 350px;
+                margin-left: 160px;
+                text-align: center;
+                border-radius: 10px;
+            }
+            #but3  {
+                color: #0e0536;
+                font-size: 15px;
+                padding: 8px 12px;
+                position: absolute;
+                margin-top: 350px;
+                margin-left: 170px;
+                text-align: center;
+                border-radius: 10px;
+            }
+            #but1:hover{background-color: red; transition: 0.5S;}
+            #but2:hover{background-color: red;transition: 0.5S}
+            #but3:hover{background-color: red;transition: 0.5S}
+            
+            .img1:hover{
+                margin-top: -70px;
+                height: 470px;
+                transition: 0.5s;
+                color: bisque;
+                
+            }
+            .img2{
+                border-radius: 30px;
+            }
+            .img2:hover{
+                margin-top: -70px;
+                height: 470px;
+                transition: 0.5s;
+            }
+            .img3{
+                border-radius: 30px;
+            }
+            .img3:hover{
+                margin-top: -70px;
+                height: 470px;
+                transition: 0.5s;
+            }
+            .a{
+                border-radius: 10px;
+                background-color: black;
+                color: white;
+                border: solid white 1px;
+            }
+            .a:hover{
+                background-color: blue;
+                height: 30px;
+                transition: 0.5s;
+            }
+            #f1{
+                border: solid rgb(92, 86, 86) 2px;
+                height: 400px;
+                width: 250px;
+                float: left;
+                margin-left: 26px;
+            }
+            #f1 img{
+                margin-top: 10px;
+                height: 270px;
+                width: 230px;
+            }
+            #f1 a{
+                color: white;
+            }
+            #f1 button{
+                background-color: black;
+                color: blue;
+                border: solid rgb(59, 58, 58) 1px;
+                margin-top: 20px;
+                font-size: 25px;
+                border-radius: 15px;
+            }
+            #f1 button:hover{
+                background-color: greenyellow;
+                transition: 300ms;
+                color: black;
+            }
+            #f1 img:hover{
+                height: 290px;
+                width:250px;
+                margin-top: 0px;
+                transition: 0.5s;
+            }
+            #s1:hover{
+                background-color: aqua;
+                transition: 300ms;
+            }
+            #pr1{margin-top: 30px; font-size: 13px; width: 150px;  height: 30px; border: solid rgb(109, 107, 107) 2px;
+             background-color: black; color: white; border-radius: 15px;}
+             #pr1:hover{
+                background-color: burlywood;
+            }
+           
+            #dro2{
+                color: beige; font-size: 25px;
+                margin-top: 0px;
+            }
+            #drop3{float: left; width: 275px;}
+            #drop4{border:solid white 1px; width: 35px; height: 360px; background-color: black;}
+            #drop7{border:solid white 1px; width: 35px; height: 360px; background-color: black;}
+            #drop8{border:solid white 1px; width: 35px; height: 360px; background-color: black;}
+            #drop9{border:solid white 1px; width: 35px; height: 360px; background-color: black;}
+           
+            #drop5{color:red; font-size: 30px}
+            #drop6i{margin-left: 25px; margin-top: -342px; display: none;}
+            #drop7i{margin-left: 25px; margin-top: -342px; display: none;}
+            #drop8i{margin-left: 25px; margin-top: -342px; display: none;}
+            #drop9i{margin-left: 25px; margin-top: -342px; display: none;}
+            #drop4:hover{
+                display: none;
+            }
+            #drop4:hover+#drop6i{
+                display: block;
+                margin-top: 0px;
+                margin-left:120px ;
+            }
+            #drop7:hover{
+                display: none;
+            }
+            #drop7:hover+#drop7i{
+                display: block;
+                margin-top: 0px;
+                margin-left:120px ;
+            }
+            #drop8:hover{
+                display: none;
+            }
+            #drop8:hover+#drop8i{
+                display: block;
+                margin-top: 0px;
+                margin-left:120px ;
+            }
+            #drop9:hover{
+                display: none;
+            }
+            #drop9:hover+#drop9i{
+                display: block;
+                margin-top: 0px;
+                margin-left:120px ;
+            }
+            #aro1{
+                border: solid white 1px; width: 25px; height: 25px; float: right; margin-top: 40px; margin-right: 10px;
+             border-radius: 15px;color: white; font-size: 20px;
+            }
+            #aro1:hover{
+                background-color: red;
+                color: black;
+                border: none;
+            }
+            #re1{
+                width: 1100px;
+                text-align: center;  
+                margin-top: 45px;
+                background-color: black;
+                color: white;
+                width: auto;
+            }
+            #re1 button{
+                background-color: black; border: solid white 2px; 
+                font-size: 20px; border-radius: 15px;
+            }
+            #re1 button:hover{
+                background-color: rgb(252, 224, 112);
+            }
+            #aro2{
+                height: 24px; width: 24px; border: solid white 1px; margin-top: -26px; margin-left: 230px;background-color: red;
+            }
+            #aro2 a{
+                color: black;
+            }
+            #aro2:hover{
+                background-color: green;
+                color: white;
+            }
+            #soc1{
+                width: 400px;
+                float: left;
+            }
+            #soc1 button{
+               width: 70px;
+               height: 70px;
+               background-color: black;
+               border: solid white 2px;
+               border-radius: 40px;
+             }
+             #soc1 img{
+                width: 50px;
+             }
+        </style>
+        <center>
+           <div><h1 style="font-size: 50px; color: white;">Discover <img src="squre1.jpg" width="150px" height="30px" style="border-radius: 20px;" >
+             Collect<BR> and Sell <img src="colore1.jpeg" width="150px" height="30px" style="border-radius: 20px;">
+            <BR> Remarkable NFTs. <div style="height: 100px; width: 25px;
+             background-color: black; border: solid white 0.2px; 
+             margin-left: 630px; margin-top: -50px;
+             border-radius: 30px;"></div></h1></div></center>
+        <center><div style=" height: 430px; width: 1100px; margin-top: 60px;" >
+            
+            <div style="padding-top: 50px;"><p style="color: whitesmoke; text-align: left; font-size:20px; margin-top: -80px; margin-left: 40px; float: left;" >Monkeys are some of<br>
+             the most common the <br>animals found around us.<br>topibaaz</p></div>
+             
+             <div style="background-color: orangered; color: white; height: 70px; width: 70px; 
+             border-radius:40px; margin-top: -90px; float: left;">
+             <img src="star1.png" height="30px" width="50px" style="margin: 15px;"></div> 
+             
+             <div style="height: 130px; width: 35px;
+             background-color: black; border: solid white 0.2px; margin-top: 60px;
+             border-radius: 30px; margin-right: 900px;"></div>
+             
+             <div style="height:15px; width:40px;
+             background-color: black; border: solid white 0.2px;
+             border-radius: 30px; margin-left: -700px;">
+             <img src="star2.png" height="40px" width="40px" style="margin-top: 60px; margin-left: 150px;"></div>
+             <div><img src="monkey1.jpg" height="400px" width="250px" 
+             style="margin-top: -350px; margin-right: 450px; border-radius: 130px;float: right; box-shadow: 50px 5px 5px white;"></div>
+             <div style="background-color:black; border: solid white 1px; height: 40px; width: 40px;
+             border-radius: 25px; margin-top: -300px; float: right; margin-right: -450px; "></div>
+             <div><p style="color: whitesmoke;font-size:20px; margin-right: -550px; text-align: left; margin-top: -200px; float: right;">Raising monkeys like pets<br>
+             has been considered a legal<br> offense.
+             If a person <br>pets monkeys, they can be<br> punished.</p></div>
+             <div style="background-color:black; border: solid white 1px; height: 10px; width: 10px;
+             display: inline-block; border-radius: 25px; margin-left: 400px; "></div>
+        </div></center>
+        <center>
+            <div style="height: 100px; width:1100px;margin-top: 30px; font-size: 30px;">
+            <span  style="float: left;"><a href="https://www.phonepe.com/" style="color: white;text-decoration: none">Phon pay</a>
+                <a href="https://www.paypal.com/" style="color: white;margin-left: 40px; text-decoration: none;">Paypal</a>
+                <a href="https://pay.google.com/intl/en_in/about/" style="color: white;margin-left: 40px;text-decoration: none">Googal pay</a>
+                <a href="https://www.amazon.in/" style="color: white;margin-left: 40px;text-decoration: none">Amozone</a>
+                <a href="https://www.coinbase.com/" style="color: white;margin-left: 40px;text-decoration: none">Coinbase</a>
+                <a href="https://paytm.com/" style="color: white;margin-left: 40px;text-decoration: none">Paytm</a></span><br>
+            <span style="float: right;  margin-top: 10px; margin-right: 100px;"><a href="https://www.neom.com/" style="color: white;text-decoration: none">Ginance</a>
+                <a href="https://www.jeton.com/" style="color: white;margin-left: 40px;text-decoration: none">BHIM PAY</a>
+                <a href="https://www.jiomoney.com/" style="color: white;margin-left: 40px;text-decoration: none">JIO MONEY</a>
+                <a href="https://www.mobikwik.com/" style="color: white;margin-left: 40px;text-decoration: none">Mobikwik</a>
+                <a href="https://www.mercari.com/?ref=it" style="color: white;margin-left: 40px;text-decoration: none">Mercari</a>
+                <a href="https://www.ssense.com/" style="color: white;margin-left: 40px;text-decoration: none">Armaniyo</a></span>
+           </div><p style="color: white; margin-top: 50px; font-size: 30px;">Foremost Rem<br>Collections</p>
+        </center>
+        <center>
+           <div style="height: 520px; width: 1100; color: black; margin-top:10px;"><p id="text1"><b>I Trained An AI To Paint<br>
+             10,000 Monkey Paintings,<br> And They’re Already Sold Out</b></p><button id="but1">Use</button>
+           <div style="width: 300px; height: 400px; margin-right: 50px; margin-left: 30px; display: inline-block;">
+           <img class="img1" src="monkey12.avif" width="300px" height="400px"><p id="text2"><b>I Trained An AI To Paint<br>
+            10,000 Monkey Paintings,<br> And They’re Already Sold Out</b></p><button id="but2">Use</button></div>
+           <div style="width: 300px; height: 400px; margin-top: 70px; margin-right: 30x; display: inline-block;">
+           <img class="img2" src="monkey13.png" width="300px" height="400px"><p id="text3"><b>I Trained An AI To Paint<br>
+            10,000 Monkey Paintings,<br> And They’re Already Sold Out</b></p><button id="but3">Use</button></div>
+           <div style="width: 300px; height: 400px; margin-top: 70px; margin-left: 50px; display: inline-block;">
+           <img class="img3" src="monkey14.jpg" width="300px" height="400px"></div><br> 
+           <div style="height: 25; width: 150px; margin-top: 20px; margin-left: 20px;" >
+            <div id="dota" onclick="currentSlide(1)"></div> 
+            <div id="dotb" onclick="currentSlide(1)"></div>
+            <div id="dotc" onclick="currentSlide(1)"></div> 
+           </div>
+           </div>
+        </center>
+        <center><h1 style="color: white; margin-top: 60px;">Discover item<br>Collections</h1></center>
+        <center>
+            <div style="width: 1100px; margin-top: 30px; font-size: 20px;">
+                <div style="float: left; color: black; height: 25px;"><button class="a">using metode</button></div>
+                <div style=" color: black; height: 25px;margin-right: 100px;"><button class="a">black monkeys</button>
+                    <button class="a" style="margin-left: 20px;">nft</button>
+                <button class="a" style="margin-left: 20px;">white</button><button class="a" style="margin-left: 20px;">
+                    new monkeys</button><button class="a" style="margin-left: 20px;">monkeys jump</button></div>
+                <div style="float: right; color: black; margin-top: -25px; height: 25px;"><button class="a">mahi</button></div>
+            </div>
+        </center>
+        <center>
+            <div style="width: 1150px; margin-top: 50px; height: 300px; margin-right: 10px;">
+                <div id="f1">
+                    <img src="monkey2.jpeg" ><a>NFT Monkey Wallpapers-Top Free NFT Monkey<br>
+                        Backgrround-WallpaperAccess<br><button>Visit</button></a>
+                </div>
+                <div id="f1">
+                    <img src="monkey3.jpeg" ><a>NFT Monkey Wallpapers-Top Free NFT Monkey<br>
+                        Backgrround-WallpaperAccess<br><button>Visit</button></a>
+                </div>
+                <div id="f1">
+                    <img src="monkey4.jpeg" ><a>NFT Monkey Wallpapers-Top Free NFT Monkey<br>
+                        Backgrround-WallpaperAccess<br><button>Visit</button></a>
+                </div>
+                <div id="f1">
+                    <img src="monkey5.jpeg" ><a>NFT Monkey Wallpapers-Top Free NFT Monkey<br>
+                        Backgrround-WallpaperAccess<br><button>Visit</button></a>
+                </div>
+            </div>
+        </center>
+         <center>
+            <div style="width: 1150px; margin-top: 150px; height: 300px; margin-right: 10px;">
+                <div id="f1">
+                    <img src="monkey6.jpeg" ><a>NFT Monkey Wallpapers-Top Free NFT Monkey<br>
+                        Backgrround-WallpaperAccess<br><button>Visit</button></a>
+                </div>
+                <div id="f1">
+                    <img src="monkey7.jpg" ><a>NFT Monkey Wallpapers-Top Free NFT Monkey<br>
+                        Backgrround-WallpaperAccess<br><button>Visit</button></a>
+                </div>
+                <div id="f1">
+                    <img src="monkey8.jpeg" ><a>NFT Monkey Wallpapers-Top Free NFT Monkey<br>
+                        Backgrround-WallpaperAccess<br><button>Visit</button></a>
+                </div>
+                <div id="f1">
+                    <img src="monkey10.jpeg" ><a>NFT Monkey Wallpapers-Top Free NFT Monkey<br>
+                        Backgrround-WallpaperAccess<br><button>Visit</button></a>
+                </div>
+            </div>
+        </center>
+        <center><div id="s1" style="width: 110px; height: 30px; margin-top: 150px; border: solid rgb(59, 59, 59) 1px; border-radius: 15px;">
+            <a style="color: white; float:left; margin-left: 10px; margin-top: 6px; ">SEE MORE:-</a></div>
+        </center>
+        <center>
+           <div style="margin-top: 70px; height: 50px;" ><p><a style="color: rgb(163, 160, 160);">The Monkeys</a><br>
+            <h1 style="color: WHITE; margin-top: -10px;">Top Collections<br><a style="color: WHITE;">In a Week</a></h1></p></div>
+        </center>
+        <center>
+            <div style="width:1100px; height: 62px; margin-top: 100px;">
+                <div style="height: 60px; width: 344px; float: left; border: solid rgb(141, 139, 139) 1px;"><p style="color: white;">
+                <p style="font-size: 30px; color: white; margin-top: -20px; margin-left: 3px; float: left;">1.</P>
+                <img src="monkey1.jpg" height="50px" width="50px" style="border-radius: 30px; margin-top: -10px; margin-left: 10px; float: left;">
+                <P style="margin-left: 20px; margin-top: -10px; color: white;float: left;">Bored Ape Yachk<BR><BR>Floor Price:$97.99</p>
+                <p style="float: right; margin-top: -10px;margin-right: 2px; color:orangered;"><a style="color: green;">+123456</a><br><br>$32245</p></div>
+            <div style="height: 60px; width: 344px; float: left; margin-left: 20px;border: solid rgb(141, 139, 139) 1px;"><p style="color: white;">
+                <p style="font-size: 30px; color: white; margin-top: -20px; margin-left: 3px; float: left;">2.</P>
+                <img src="monkey1.jpg" height="50px" width="50px" style="border-radius: 30px; margin-top: -10px; margin-left: 10px; float: left;">
+                <P style="margin-left: 20px; margin-top: -10px; color: white;float: left;">Bored Ape Yachk<BR><BR>Floor Price:$97.99</p>
+                <p style="float: right; margin-top: -10px;margin-right: 2px; color:orangered;"><a style="color: green;">+123456</a><br><br>$32245</p></div>
+            <div style="height: 60px; width: 344px; float: left; margin-left: 20px; border: solid rgb(141, 139, 139) 1px;"><p style="color: white;">
+                <p style="font-size: 30px; color: white; margin-top: -20px; margin-left: 3px;  float: left;">3.</P>
+                <img src="monkey1.jpg" height="50px" width="50px" style="border-radius: 30px; margin-top: -10px; margin-left: 10px; float: left;">
+                <P style="margin-left: 20px; margin-top: -10px; color: white;float: left;">Bored Ape Yachk<BR><BR>Floor Price:$97.99</p>
+                <p style="float: right; margin-top: -10px;margin-right: 2px; color:orangered;"><a style="color: green;">+123456</a><br><br>$32245</p></div>
+            </div>
+        </center>
+        <center>
+            <div style="width:1100px; height: 62px; margin-top: 30px;">
+                <div style="height: 60px; width: 344px; float: left; border: solid rgb(141, 139, 139) 1px;"><p style="color: white;">
+                <p style="font-size: 30px; color: white; margin-top: -20px; margin-left: 3px; float: left;">1.</P>
+                <img src="monkey1.jpg" height="50px" width="50px" style="border-radius: 30px; margin-top: -10px; margin-left: 10px; float: left;">
+                <P style="margin-left: 20px; margin-top: -10px; color: white;float: left;">Bored Ape Yachk<BR><BR>Floor Price:$97.99</p>
+                <p style="float: right; margin-top: -10px;margin-right: 2px; color:orangered;"><a style="color: green;">+123456</a><br><br>$32245</p></div>
+            <div style="height: 60px; width: 344px; float: left; margin-left: 20px;border: solid rgb(141, 139, 139) 1px;"><p style="color: white;">
+                <p style="font-size: 30px; color: white; margin-top: -20px; margin-left: 3px; float: left;">2.</P>
+                <img src="monkey1.jpg" height="50px" width="50px" style="border-radius: 30px; margin-top: -10px; margin-left: 10px; float: left;">
+                <P style="margin-left: 20px; margin-top: -10px; color: white;float: left;">Bored Ape Yachk<BR><BR>Floor Price:$97.99</p>
+                <p style="float: right; margin-top: -10px;margin-right: 2px; color:orangered;"><a style="color: green;">+123456</a><br><br>$32245</p></div>
+            <div style="height: 60px; width: 344px; float: left; margin-left: 20px; border: solid rgb(141, 139, 139) 1px;"><p style="color: white;">
+                <p style="font-size: 30px; color: white; margin-top: -20px; margin-left: 3px;  float: left;">3.</P>
+                <img src="monkey1.jpg" height="50px" width="50px" style="border-radius: 30px; margin-top: -10px; margin-left: 10px; float: left;">
+                <P style="margin-left: 20px; margin-top: -10px; color: white;float: left;">Bored Ape Yachk<BR><BR>Floor Price:$97.99</p>
+                <p style="float: right; margin-top: -10px;margin-right: 2px; color:orangered;"><a style="color: green;">+123456</a><br><br>$32245</p></div>
+            </div>
+        </center>
+        <center>
+            <div style="width:1100px; height: 30px; margin-top: 30px;">
+                <div style="height: 60px; width: 344px; float: left; border: solid rgb(141, 139, 139) 1px;"><p style="color: white;">
+                <p style="font-size: 30px; color: white; margin-top: -20px; margin-left: 3px; float: left;">1.</P>
+                <img src="monkey1.jpg" height="50px" width="50px" style="border-radius: 30px; margin-top: -10px; margin-left: 10px; float: left;">
+                <P style="margin-left: 20px; margin-top: -10px; color: white;float: left;">Bored Ape Yachk<BR><BR>Floor Price:$97.99</p>
+                <p style="float: right; margin-top: -10px;margin-right: 2px; color:orangered;"><a style="color: green;">+123456</a><br><br>$32245</p></div>
+            <div style="height: 60px; width: 344px; float: left; margin-left: 20px;border: solid rgb(141, 139, 139) 1px;"><p style="color: white;">
+                <p style="font-size: 30px; color: white; margin-top: -20px; margin-left: 3px; float: left;">2.</P>
+                <img src="monkey1.jpg" height="50px" width="50px" style="border-radius: 30px; margin-top: -10px; margin-left: 10px; float: left;">
+                <P style="margin-left: 20px; margin-top: -10px; color: white;float: left;">Bored Ape Yachk<BR><BR>Floor Price:$97.99</p>
+                <p style="float: right; margin-top: -10px;margin-right: 2px; color:orangered;"><a style="color: green;">+123456</a><br><br>$32245</p></div>
+            <div style="height: 60px; width: 344px; float: left; margin-left: 20px; border: solid rgb(141, 139, 139) 1px;"><p style="color: white;">
+                <p style="font-size: 30px; color: white; margin-top: -20px; margin-left: 3px;  float: left;">3.</P>
+                <img src="monkey1.jpg" height="50px" width="50px" style="border-radius: 30px; margin-top: -10px; margin-left: 10px; float: left;">
+                <P style="margin-left: 20px; margin-top: -10px; color: white;float: left;">Bored Ape Yachk<BR><BR>Floor Price:$97.99</p>
+                <p style="float: right; margin-top: -10px;margin-right: 2px; color:orangered;"><a style="color: green;">+123456</a><br><br>$32245</p></div>
+            </div>
+        </center>
+        <center><div style="width: 1100px; height: 40px;"><button id="pr1">Very Low Prices</button></div></center>
+        <center><P style="font-size: 15px; color: rgb(151, 147, 147); margin-top: 120px;">The NFTs Monkeys</P>
+            <p style="font-size: 25px; color: white; margin-top: -15px;"><b>Creat and Sell<br>Your NFTs</b></p></center>
+        
+           <center><div style="width: 1100px; margin-right: 230px;">
+            <div id="drop3">
+                <button id="drop4"><p id="dro2"><a id="drop5">1.</a><br><br>N<br>F<br>T<br><br>M<br>O<br>N<br>K<br>E<br>Y</p></button>
+                <img src="monkey11.jpg" width="280px" height="360px" id="drop6i" >
+            </div>
+            <div id="drop3">
+                <button id="drop7"><p id="dro2"><a id="drop5">2.</a><br><br>N<br>F<br>T<br><br>M<br>O<br>N<br>K<br>E<br>Y</p></button>
+                <img src="monkey11.jpg" width="280px" height="360px" id="drop7i" >
+            </div>
+            <div id="drop3">
+                <button id="drop8"><p id="dro2"><a id="drop5">3.</a><br><br>N<br>F<br>T<br><br>M<br>O<br>N<br>K<br>E<br>Y</p></button>
+                <img src="monkey11.jpg" width="280px" height="360px" id="drop8i" >
+            </div>
+            <div id="drop3">
+                <button id="drop9"><p id="dro2"><a id="drop5">4.</a><br><br>N<br>F<br>T<br><br>M<br>O<br>N<br>K<br>E<br>Y</p></button>
+                <img src="monkey11.jpg" width="280px" height="360px" id="drop9i" >
+            </div>
+            </div></center>
+        
+        <center><div style="width: 1100px; margin-top: 500px;"><p style="color: white; font-size: 30px;">
+            <a style="font-size: 20px;">Prasents</a><br><b>Getting Started</b></p></div></center>
+        
+      <center><div  style="width:1100px; text-align: left; ">
+        <div style="width: 1100; height: 100px;  margin-top: 70px; border: solid white 1px;">
+            <div style="float: left; color: white; font-size: 20px; margin-left: 10px;"><p>1. SETUP</p></div>
+            <div style="float: left; color: white; font-size: 20px; margin-left: 30px;"><p>SETUP A<br> MetsaMask <br>Mallet</p></div>
+            <div style="float: left; color: white; font-size: 20px; margin-left: 50px;"><p>The monkey Bussiness orangutans have escaped
+                 from the rain forests of Southeast Asia.They are<br> now free roam in human civilization. Some get into trouble, Some
+                  go to parties , and some get just <br>have fun.</p></div>
+            <div id="aro1"><center><a>></a></center></div>
+        </div>
+        <div style="width: 1100; height: 100px; margin-left: 0px; border: solid white 1px;">
+            <div style="float: left; color: white; font-size: 20px; margin-left: 10px;margin-top: -10px;"><p>2. SETUP</p></div>
+            <div style="float: left; color: white; font-size: 20px; margin-left: 30px; margin-top: -10px;">
+                <p>SETUP A<br> MetsaMask <br>Mallet</p></div>
+            <div style="float: left; color: white; font-size: 20px; margin-left: 50px; margin-top: -10px;">
+                <p>The monkey Bussiness orangutans have escaped
+                 from the rain forests of Southeast Asia.They are<br> now free roam in human civilization. Some get into trouble, Some
+                  go to parties , and some get just <br>have fun.</p></div>
+            <div id="aro1"><center><a>></a></center></div>
+        </div>
+        <div style="width: 1100; height: 100px; margin-left: 0px; border: solid white 1px;">
+            <div style="float: left; color: white; font-size: 20px; margin-left: 10px; margin-top: -7px;">
+                <p>3. SETUP</p></div>
+            <div style="float: left; color: white; font-size: 20px; margin-left: 30px; margin-top: -7px;">
+                <p>SETUP A<br> MetsaMask <br>Mallet</p></div>
+            <div style="float: left; color: white; font-size: 20px; margin-left: 50px; margin-top: -7px;">
+                <p>The monkey Bussiness orangutans have escaped
+                 from the rain forests of Southeast Asia.They are<br> now free roam in human civilization. Some get into trouble, Some
+                  go to parties , and some get just <br>have fun.</p></div>
+            <div id="aro1"><center><a>></a></center></div></center>
+        </div></div>
+        <center><div id="re1"><button id="re1">Read More</button></div></center>
+        
+           <center> <div style="width: 1100px; background-color: aqua; margin-top: 50px; text-align: left;">
+                <div style="float: left; font-size: 20px;width: 275px;"><h1 style="color: white;"><a>Searcher</a></h1></div>
+                <div style="float: left; margin-top: 40px; font-size: 20px; width: 275px;">
+                    <a style="color: white; font-style: oblique; ">Marketplace</a><br><br>
+                    <a style="color: white; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Resources</a></div>
+                <div style="float: left;margin-top: 40px; font-size: 20px;  width: 275px;">
+                    <a style="color: white; font-style: oblique; float: left;">My Account</a><br><br>
+                    <a style="color: white; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Company</a></div>
+                <div style="float: left;margin-top: 20px; font-size: 20px;  width: 275px;">
+                    <p style="color: white;">Stay updated <br>join our mailing list</p>
+                    <input style="margin-top: -18px; font-size: 18px;" type="email" placeholder="enter your mail id">
+                    <div id="aro2"><a>&#8594</a></div></div>
+            </div></center>
+        <center><div style="width:1100px; margin-top: 300px;">
+                    <div style="color: white; text-align: left; font-size: 20px; width: 350px; float: left;">
+                        <p>The NFTs Marketplace with everything for <br>everyone.</p></div>
+                    <div id="soc1"><a><button><img src="fb1.png"></button></a>
+                     <a><button><img src="insta1.png"></button></a>
+                     <a><button><img src="twit1.png"></button></a>
+                     <a><button><img src="gam1.png"></button></a>
+                     <a><button><img src="yt1.png"></button></a>
+                    </div>
+                    <div style="width: 350px; color: white; font-size: 20px; float: left;">
+                        <p><a style="font-size: 30px;"><b>S</b></a> &nbsp;&nbsp;2022 Searcher All Right Reserved</p></div>
+                </div>
+       </center>
+        
+        
+        
+    </body>
+</html>
+\\Stay updated join our mailing list
